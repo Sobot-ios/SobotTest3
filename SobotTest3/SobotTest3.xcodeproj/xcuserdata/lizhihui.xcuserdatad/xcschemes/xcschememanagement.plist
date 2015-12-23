@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SobotTest3.xcscheme</key>
+		<key>CreateSobotLib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SobotLib.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2667257F1C29A6CF00F9569B</key>
+		<key>7B357C221C0849F9009DE1FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>266725981C29A6CF00F9569B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>266725A31C29A6CF00F9569B</key>
+		<key>7B357C921C084D91009DE1FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

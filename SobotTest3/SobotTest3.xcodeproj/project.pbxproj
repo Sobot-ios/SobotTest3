@@ -6,69 +6,51 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		7B357C921C084D91009DE1FB /* CreateSobotTest3 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7B357C951C084D91009DE1FB /* Build configuration list for PBXAggregateTarget "CreateSobotTest3" */;
+			buildPhases = (
+				7B357C961C084D97009DE1FB /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CreateSobotTest3;
+			productName = CreateSobotLib;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		266725851C29A6CF00F9569B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 266725841C29A6CF00F9569B /* main.m */; };
-		266725881C29A6CF00F9569B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 266725871C29A6CF00F9569B /* AppDelegate.m */; };
-		2667258B1C29A6CF00F9569B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2667258A1C29A6CF00F9569B /* ViewController.m */; };
-		2667258E1C29A6CF00F9569B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2667258C1C29A6CF00F9569B /* Main.storyboard */; };
-		266725901C29A6CF00F9569B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2667258F1C29A6CF00F9569B /* Assets.xcassets */; };
-		266725931C29A6CF00F9569B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266725911C29A6CF00F9569B /* LaunchScreen.storyboard */; };
-		2667259E1C29A6CF00F9569B /* SobotTest3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2667259D1C29A6CF00F9569B /* SobotTest3Tests.m */; };
-		266725A91C29A6CF00F9569B /* SobotTest3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 266725A81C29A6CF00F9569B /* SobotTest3UITests.m */; };
+		7B357C271C0849F9009DE1FB /* SobotLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B357C261C0849F9009DE1FB /* SobotLib.h */; };
+		7B357C291C0849F9009DE1FB /* SobotLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B357C281C0849F9009DE1FB /* SobotLib.m */; };
+		7B357C831C084AFC009DE1FB /* ZCLibServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B357C611C084AFC009DE1FB /* ZCLibServer.m */; };
+		7B357CA01C084E48009DE1FB /* ZCLibServer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B357C601C084AFC009DE1FB /* ZCLibServer.h */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2667259A1C29A6CF00F9569B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266725781C29A6CF00F9569B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2667257F1C29A6CF00F9569B;
-			remoteInfo = SobotTest3;
+/* Begin PBXCopyFilesBuildPhase section */
+		7B357C211C0849F9009DE1FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7B357CA01C084E48009DE1FB /* ZCLibServer.h in CopyFiles */,
+				7B357C271C0849F9009DE1FB /* SobotLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		266725A51C29A6CF00F9569B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266725781C29A6CF00F9569B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2667257F1C29A6CF00F9569B;
-			remoteInfo = SobotTest3;
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		266725801C29A6CF00F9569B /* SobotTest3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SobotTest3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		266725841C29A6CF00F9569B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		266725861C29A6CF00F9569B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		266725871C29A6CF00F9569B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		266725891C29A6CF00F9569B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2667258A1C29A6CF00F9569B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2667258D1C29A6CF00F9569B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2667258F1C29A6CF00F9569B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		266725921C29A6CF00F9569B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		266725941C29A6CF00F9569B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		266725991C29A6CF00F9569B /* SobotTest3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SobotTest3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2667259D1C29A6CF00F9569B /* SobotTest3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SobotTest3Tests.m; sourceTree = "<group>"; };
-		2667259F1C29A6CF00F9569B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		266725A41C29A6CF00F9569B /* SobotTest3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SobotTest3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		266725A81C29A6CF00F9569B /* SobotTest3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SobotTest3UITests.m; sourceTree = "<group>"; };
-		266725AA1C29A6CF00F9569B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B357C231C0849F9009DE1FB /* libSobotTest3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSobotTest3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B357C261C0849F9009DE1FB /* SobotLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SobotLib.h; sourceTree = "<group>"; };
+		7B357C281C0849F9009DE1FB /* SobotLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SobotLib.m; sourceTree = "<group>"; };
+		7B357C601C084AFC009DE1FB /* ZCLibServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCLibServer.h; sourceTree = "<group>"; };
+		7B357C611C084AFC009DE1FB /* ZCLibServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCLibServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2667257D1C29A6CF00F9569B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		266725961C29A6CF00F9569B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		266725A11C29A6CF00F9569B /* Frameworks */ = {
+		7B357C201C0849F9009DE1FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,256 +60,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		266725771C29A6CF00F9569B = {
+		7B357C1A1C0849F9009DE1FB = {
 			isa = PBXGroup;
 			children = (
-				266725821C29A6CF00F9569B /* SobotTest3 */,
-				2667259C1C29A6CF00F9569B /* SobotTest3Tests */,
-				266725A71C29A6CF00F9569B /* SobotTest3UITests */,
-				266725811C29A6CF00F9569B /* Products */,
+				7B357C251C0849F9009DE1FB /* SobotLib */,
+				7B357C241C0849F9009DE1FB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		266725811C29A6CF00F9569B /* Products */ = {
+		7B357C241C0849F9009DE1FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				266725801C29A6CF00F9569B /* SobotTest3.app */,
-				266725991C29A6CF00F9569B /* SobotTest3Tests.xctest */,
-				266725A41C29A6CF00F9569B /* SobotTest3UITests.xctest */,
+				7B357C231C0849F9009DE1FB /* libSobotTest3.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		266725821C29A6CF00F9569B /* SobotTest3 */ = {
+		7B357C251C0849F9009DE1FB /* SobotLib */ = {
 			isa = PBXGroup;
 			children = (
-				266725861C29A6CF00F9569B /* AppDelegate.h */,
-				266725871C29A6CF00F9569B /* AppDelegate.m */,
-				266725891C29A6CF00F9569B /* ViewController.h */,
-				2667258A1C29A6CF00F9569B /* ViewController.m */,
-				2667258C1C29A6CF00F9569B /* Main.storyboard */,
-				2667258F1C29A6CF00F9569B /* Assets.xcassets */,
-				266725911C29A6CF00F9569B /* LaunchScreen.storyboard */,
-				266725941C29A6CF00F9569B /* Info.plist */,
-				266725831C29A6CF00F9569B /* Supporting Files */,
+				7B357C5E1C084AFC009DE1FB /* Sobot */,
+				7B357C261C0849F9009DE1FB /* SobotLib.h */,
+				7B357C281C0849F9009DE1FB /* SobotLib.m */,
 			);
-			path = SobotTest3;
+			path = SobotLib;
 			sourceTree = "<group>";
 		};
-		266725831C29A6CF00F9569B /* Supporting Files */ = {
+		7B357C5E1C084AFC009DE1FB /* Sobot */ = {
 			isa = PBXGroup;
 			children = (
-				266725841C29A6CF00F9569B /* main.m */,
+				7B357C601C084AFC009DE1FB /* ZCLibServer.h */,
+				7B357C611C084AFC009DE1FB /* ZCLibServer.m */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2667259C1C29A6CF00F9569B /* SobotTest3Tests */ = {
-			isa = PBXGroup;
-			children = (
-				2667259D1C29A6CF00F9569B /* SobotTest3Tests.m */,
-				2667259F1C29A6CF00F9569B /* Info.plist */,
-			);
-			path = SobotTest3Tests;
-			sourceTree = "<group>";
-		};
-		266725A71C29A6CF00F9569B /* SobotTest3UITests */ = {
-			isa = PBXGroup;
-			children = (
-				266725A81C29A6CF00F9569B /* SobotTest3UITests.m */,
-				266725AA1C29A6CF00F9569B /* Info.plist */,
-			);
-			path = SobotTest3UITests;
+			path = Sobot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2667257F1C29A6CF00F9569B /* SobotTest3 */ = {
+		7B357C221C0849F9009DE1FB /* SobotTest3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 266725AD1C29A6CF00F9569B /* Build configuration list for PBXNativeTarget "SobotTest3" */;
+			buildConfigurationList = 7B357C2C1C0849F9009DE1FB /* Build configuration list for PBXNativeTarget "SobotTest3" */;
 			buildPhases = (
-				2667257C1C29A6CF00F9569B /* Sources */,
-				2667257D1C29A6CF00F9569B /* Frameworks */,
-				2667257E1C29A6CF00F9569B /* Resources */,
+				7B357C1F1C0849F9009DE1FB /* Sources */,
+				7B357C201C0849F9009DE1FB /* Frameworks */,
+				7B357C211C0849F9009DE1FB /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SobotTest3;
-			productName = SobotTest3;
-			productReference = 266725801C29A6CF00F9569B /* SobotTest3.app */;
-			productType = "com.apple.product-type.application";
-		};
-		266725981C29A6CF00F9569B /* SobotTest3Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 266725B01C29A6CF00F9569B /* Build configuration list for PBXNativeTarget "SobotTest3Tests" */;
-			buildPhases = (
-				266725951C29A6CF00F9569B /* Sources */,
-				266725961C29A6CF00F9569B /* Frameworks */,
-				266725971C29A6CF00F9569B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2667259B1C29A6CF00F9569B /* PBXTargetDependency */,
-			);
-			name = SobotTest3Tests;
-			productName = SobotTest3Tests;
-			productReference = 266725991C29A6CF00F9569B /* SobotTest3Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		266725A31C29A6CF00F9569B /* SobotTest3UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 266725B31C29A6CF00F9569B /* Build configuration list for PBXNativeTarget "SobotTest3UITests" */;
-			buildPhases = (
-				266725A01C29A6CF00F9569B /* Sources */,
-				266725A11C29A6CF00F9569B /* Frameworks */,
-				266725A21C29A6CF00F9569B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				266725A61C29A6CF00F9569B /* PBXTargetDependency */,
-			);
-			name = SobotTest3UITests;
-			productName = SobotTest3UITests;
-			productReference = 266725A41C29A6CF00F9569B /* SobotTest3UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			productName = SobotLib;
+			productReference = 7B357C231C0849F9009DE1FB /* libSobotTest3.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		266725781C29A6CF00F9569B /* Project object */ = {
+		7B357C1B1C0849F9009DE1FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = lizhihui;
+				ORGANIZATIONNAME = zhichi;
 				TargetAttributes = {
-					2667257F1C29A6CF00F9569B = {
+					7B357C221C0849F9009DE1FB = {
 						CreatedOnToolsVersion = 7.1;
 					};
-					266725981C29A6CF00F9569B = {
+					7B357C921C084D91009DE1FB = {
 						CreatedOnToolsVersion = 7.1;
-						TestTargetID = 2667257F1C29A6CF00F9569B;
-					};
-					266725A31C29A6CF00F9569B = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = 2667257F1C29A6CF00F9569B;
 					};
 				};
 			};
-			buildConfigurationList = 2667257B1C29A6CF00F9569B /* Build configuration list for PBXProject "SobotTest3" */;
+			buildConfigurationList = 7B357C1E1C0849F9009DE1FB /* Build configuration list for PBXProject "SobotTest3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 266725771C29A6CF00F9569B;
-			productRefGroup = 266725811C29A6CF00F9569B /* Products */;
+			mainGroup = 7B357C1A1C0849F9009DE1FB;
+			productRefGroup = 7B357C241C0849F9009DE1FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2667257F1C29A6CF00F9569B /* SobotTest3 */,
-				266725981C29A6CF00F9569B /* SobotTest3Tests */,
-				266725A31C29A6CF00F9569B /* SobotTest3UITests */,
+				7B357C221C0849F9009DE1FB /* SobotTest3 */,
+				7B357C921C084D91009DE1FB /* CreateSobotTest3 */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		2667257E1C29A6CF00F9569B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				266725931C29A6CF00F9569B /* LaunchScreen.storyboard in Resources */,
-				266725901C29A6CF00F9569B /* Assets.xcassets in Resources */,
-				2667258E1C29A6CF00F9569B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		266725971C29A6CF00F9569B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		7B357C961C084D97009DE1FB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		266725A21C29A6CF00F9569B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputPaths = (
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/libFinal/\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/lib${FMK_NAME}.a\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/lib${FMK_NAME}.a\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild OTHER_CFLAGS=\"-fembed-bitcode\" -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\n\n\nMY_FINAL_BUILD_PATH_HEADER=\"${INSTALL_DIR}/include/\"\nif [ -d \"${MY_FINAL_BUILD_PATH_HEADER}\" ]\nthen\nrm -rf \"${MY_FINAL_BUILD_PATH_HEADER}\"\nfi\nmkdir -p \"${MY_FINAL_BUILD_PATH_HEADER}\"\n\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}\" \"${SIMULATOR_DIR}\" -output \"${INSTALL_DIR}/lib${FMK_NAME}.a\"\n\ncp -R \"${WRK_DIR}/Release-iphoneos/include/SobotLib/\" ${MY_FINAL_BUILD_PATH_HEADER}\n\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2667257C1C29A6CF00F9569B /* Sources */ = {
+		7B357C1F1C0849F9009DE1FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2667258B1C29A6CF00F9569B /* ViewController.m in Sources */,
-				266725881C29A6CF00F9569B /* AppDelegate.m in Sources */,
-				266725851C29A6CF00F9569B /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		266725951C29A6CF00F9569B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2667259E1C29A6CF00F9569B /* SobotTest3Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		266725A01C29A6CF00F9569B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				266725A91C29A6CF00F9569B /* SobotTest3UITests.m in Sources */,
+				7B357C831C084AFC009DE1FB /* ZCLibServer.m in Sources */,
+				7B357C291C0849F9009DE1FB /* SobotLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2667259B1C29A6CF00F9569B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2667257F1C29A6CF00F9569B /* SobotTest3 */;
-			targetProxy = 2667259A1C29A6CF00F9569B /* PBXContainerItemProxy */;
-		};
-		266725A61C29A6CF00F9569B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2667257F1C29A6CF00F9569B /* SobotTest3 */;
-			targetProxy = 266725A51C29A6CF00F9569B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2667258C1C29A6CF00F9569B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2667258D1C29A6CF00F9569B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		266725911C29A6CF00F9569B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				266725921C29A6CF00F9569B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		266725AB1C29A6CF00F9569B /* Debug */ = {
+		7B357C2A1C0849F9009DE1FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,15 +215,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		266725AC1C29A6CF00F9569B /* Release */ = {
+		7B357C2B1C0849F9009DE1FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,121 +252,76 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		266725AE1C29A6CF00F9569B /* Debug */ = {
+		7B357C2D1C0849F9009DE1FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SobotTest3/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.SobotTest3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SobotTest3;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		266725AF1C29A6CF00F9569B /* Release */ = {
+		7B357C2E1C0849F9009DE1FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SobotTest3/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.SobotTest3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SobotTest3;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		266725B11C29A6CF00F9569B /* Debug */ = {
+		7B357C931C084D91009DE1FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SobotTest3Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.SobotTest3Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SobotTest3.app/SobotTest3";
+				PRODUCT_NAME = SobotTest3;
 			};
 			name = Debug;
 		};
-		266725B21C29A6CF00F9569B /* Release */ = {
+		7B357C941C084D91009DE1FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SobotTest3Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.SobotTest3Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SobotTest3.app/SobotTest3";
-			};
-			name = Release;
-		};
-		266725B41C29A6CF00F9569B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SobotTest3UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.SobotTest3UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SobotTest3;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		266725B51C29A6CF00F9569B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SobotTest3UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sobot.SobotTest3UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SobotTest3;
-				USES_XCTRUNNER = YES;
+				PRODUCT_NAME = SobotTest3;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2667257B1C29A6CF00F9569B /* Build configuration list for PBXProject "SobotTest3" */ = {
+		7B357C1E1C0849F9009DE1FB /* Build configuration list for PBXProject "SobotTest3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				266725AB1C29A6CF00F9569B /* Debug */,
-				266725AC1C29A6CF00F9569B /* Release */,
+				7B357C2A1C0849F9009DE1FB /* Debug */,
+				7B357C2B1C0849F9009DE1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		266725AD1C29A6CF00F9569B /* Build configuration list for PBXNativeTarget "SobotTest3" */ = {
+		7B357C2C1C0849F9009DE1FB /* Build configuration list for PBXNativeTarget "SobotTest3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				266725AE1C29A6CF00F9569B /* Debug */,
-				266725AF1C29A6CF00F9569B /* Release */,
+				7B357C2D1C0849F9009DE1FB /* Debug */,
+				7B357C2E1C0849F9009DE1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		266725B01C29A6CF00F9569B /* Build configuration list for PBXNativeTarget "SobotTest3Tests" */ = {
+		7B357C951C084D91009DE1FB /* Build configuration list for PBXAggregateTarget "CreateSobotTest3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				266725B11C29A6CF00F9569B /* Debug */,
-				266725B21C29A6CF00F9569B /* Release */,
+				7B357C931C084D91009DE1FB /* Debug */,
+				7B357C941C084D91009DE1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		266725B31C29A6CF00F9569B /* Build configuration list for PBXNativeTarget "SobotTest3UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				266725B41C29A6CF00F9569B /* Debug */,
-				266725B51C29A6CF00F9569B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 266725781C29A6CF00F9569B /* Project object */;
+	rootObject = 7B357C1B1C0849F9009DE1FB /* Project object */;
 }
